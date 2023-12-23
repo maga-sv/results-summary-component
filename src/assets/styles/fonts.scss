@@ -1,0 +1,9 @@
+$HankenGrotesk: ("Medium", 500), ("Bold", 700), ("ExtraBold", 800);
+
+@each $name, $weight in $HankenGrotesk {
+    @font-face {
+        src: url(../fonts/static/HankenGrotesk-#{$name}.ttf);
+        font-weight: $weight;
+        font-family: "HankenGrotesk";
+    }
+}

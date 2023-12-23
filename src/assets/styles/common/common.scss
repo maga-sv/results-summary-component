@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "HankenGrotesk";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+:root {
+
+    // Summary Colors
+    
+    --summaryColor1: hsl(0, 100%, 67%);
+    --summaryColor2: hsl(39, 100%, 56%);
+    --summaryColor2: hsl(166, 100%, 37%);
+    --summaryColor2: hsl(234, 85%, 45%);
+    
+    // Summary Colors
+    
+    // Gradient Colors
+    
+    // bg
+
+    --bgColor1: hsl(252, 100%, 67%);
+    --bgColor1: hsl(241, 81%, 54%);
+    
+    // bg
+    
+    // circle
+    
+    --bgColor1: hsla(256, 72%, 46%, 1);
+    --bgColor1: hsla(241, 72%, 46%, 0);
+
+    // circle
+
+    // Gradient Colors 
+
+    // Neutral
+
+    --primaryColor: #fff;
+    --secondaryColor: hsl(221, 100%, 96%);
+    --accentColor: hsl(241, 100%, 89%);
+    --secAccentColor: hsl(224, 30%, 27%);
+
+    // Neutral
+
+}
