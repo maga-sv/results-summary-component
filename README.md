@@ -6,7 +6,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![](./src/assets/screenshot.jpg)
+![](./src/assets/images/screenshot.jpg)
 ### Links
 
 - Solution URL: (https://github.com/maga-sv/results-summary-component)
