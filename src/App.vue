@@ -14,7 +14,7 @@ const resultStore = useResultStore()
 
         <div class="result__cards">
 
-          <Card v-for="(result, index) in resultStore?.results" :key="index" :result="result" />
+          <Card :result="resultStore?.results" />
 
         </div>
 
@@ -25,4 +25,11 @@ const resultStore = useResultStore()
 </template>
 
 <style scoped>
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 </style>

@@ -13,34 +13,41 @@ a {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
 }
-
 
 :root {
 
     // Summary Colors
-    
+
     --summaryColor1: hsl(0, 100%, 67%);
     --summaryColor2: hsl(39, 100%, 56%);
-    --summaryColor2: hsl(166, 100%, 37%);
-    --summaryColor2: hsl(234, 85%, 45%);
-    
+    --summaryColor3: hsl(166, 100%, 37%);
+    --summaryColor4: hsl(234, 85%, 45%);
+
+    // transparent
+
+    --trSummaryColor1: hsla(0, 100%, 67%, 0.2);
+    --trSummaryColor2: hsl(39, 100%, 56%, 0.2);
+    --trSummaryColor3: hsl(166, 100%, 37%,0.2);
+    --trSummaryColor4: hsl(234, 85%, 45%, 0.2);
+
+    // transparent
+
     // Summary Colors
-    
+
     // Gradient Colors
-    
+
     // bg
 
     --bgColor1: hsl(252, 100%, 67%);
-    --bgColor1: hsl(241, 81%, 54%);
-    
+    --bgColor2: hsl(241, 81%, 54%);
+
     // bg
-    
+
     // circle
-    
-    --bgColor1: hsla(256, 72%, 46%, 1);
-    --bgColor1: hsla(241, 72%, 46%, 0);
+
+    --circleColor1: hsla(256, 72%, 46%, 1);
+    --circleColor2: hsla(241, 72%, 46%, 0);
 
     // circle
 
@@ -52,6 +59,7 @@ a {
     --secondaryColor: hsl(221, 100%, 96%);
     --accentColor: hsl(241, 100%, 89%);
     --secAccentColor: hsl(224, 30%, 27%);
+    --rdAccentColor: hsla(224, 30%, 27%, 0.699);
 
     // Neutral
 

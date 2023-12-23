@@ -2,17 +2,15 @@ import { defineStore } from "pinia";
 
 export const useResultStore = defineStore("result", {
   state: () => ({
-    results: [
-      {
-        total: 76,
-        summary: {
-          reaction: 80,
-          memory: 92,
-          verbal: 61,
-          visual: 72,
-        },
+    results: {
+      total: 76,
+      summary: {
+        reaction: 80,
+        memory: 92,
+        verbal: 61,
+        visual: 72,
       },
-    ],
+    },
   }),
 });
 
