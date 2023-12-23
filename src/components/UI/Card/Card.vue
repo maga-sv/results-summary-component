@@ -15,7 +15,7 @@ const props = defineProps({
       <h3 class="card__res-title">Your Result</h3>
 
       <div class="card__res-circle">
-        <span class="card__res-circle-num">76</span>
+        <span class="card__res-circle-num">{{result?.total}}</span>
         <span class="card__res-circle-per">of 100</span>
       </div>
 
@@ -36,7 +36,7 @@ const props = defineProps({
                 <span>Reaction</span>
             </div>
                 
-            <p class="card__sum-el-num">80 <span>/ 100</span></p>
+            <p class="card__sum-el-num">{{ result?.summary?.reaction }} <span>/ 100</span></p>
 
         </div>
         <div class="card__sum-el">
@@ -45,7 +45,7 @@ const props = defineProps({
                 <span>Memory</span>
             </div>
                 
-            <p class="card__sum-el-num">92 <span>/ 100</span></p>
+            <p class="card__sum-el-num">{{ result?.summary?.memory }} <span>/ 100</span></p>
 
         </div>
         <div class="card__sum-el">
@@ -54,7 +54,7 @@ const props = defineProps({
                 <span>Verbal</span>
             </div>
 
-            <p class="card__sum-el-num">61 <span>/ 100</span></p>
+            <p class="card__sum-el-num">{{ result?.summary?.verbal }} <span>/ 100</span></p>
 
         </div>
         <div class="card__sum-el">
@@ -63,7 +63,7 @@ const props = defineProps({
                 <span>Visual</span>
             </div>
 
-            <p class="card__sum-el-num">72 <span>/ 100</span></p>
+            <p class="card__sum-el-num">{{ result?.summary?.visual }} <span>/ 100</span></p>
 
         </div>
       </div>
@@ -78,6 +78,7 @@ const props = defineProps({
   border-radius: 25px;
   box-shadow: 15px 20px 51px -20px var(--accentColor);
   display: flex;
+  flex-wrap: wrap;
 
   &__res,
   &__sum {
@@ -204,6 +205,15 @@ const props = defineProps({
         &:hover {
             background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
         }
+    }
+  }
+
+  @media (max-width: 636px) {
+    flex-direction: column;
+
+    &__res,
+    &__sum {
+        width: 100%;
     }
   }
 }
