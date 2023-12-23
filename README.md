@@ -9,5 +9,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ![](./src/assets/screenshot.jpg)
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/maga-sv/results-summary-component)
 - Live Site URL: ()
